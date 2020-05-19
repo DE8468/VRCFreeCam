@@ -84,6 +84,7 @@ namespace VRCFreeCam
                     GameObject.DontDestroyOnLoad(_CamFree);
                     _CamFree.transform.localScale = CamEye.transform.localScale;
                     _CamFree.AddComponent<Camera>().enabled = false;
+                    _CamFree.GetComponent<Camera>().nearClipPlane = 0.01f;
                 }
                 return _CamFree;
             }

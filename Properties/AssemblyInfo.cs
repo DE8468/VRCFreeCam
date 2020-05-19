@@ -35,5 +35,5 @@ using MelonLoader;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: MelonModInfo(typeof(VRCFreeCam.FreeCam), "VRCFreeCam", "0.1.0", "DE8468", "https://github.com/DE8468/VRCFreeCam")]
+[assembly: MelonModInfo(typeof(VRCFreeCam.FreeCam), "VRCFreeCam", "0.1.1", "DE8468", "https://github.com/DE8468/VRCFreeCam")]
 [assembly: MelonModGame("VRChat", "VRChat")]
